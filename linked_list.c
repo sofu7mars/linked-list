@@ -10,6 +10,7 @@ void insert_node_int(int index, int data, struct linked_list_int *linked_list);
 void remove_node_int(int index, struct linked_list_int *linked_list);
 int retrieve_data_int(int index, struct linked_list_int *linked_list);
 
+
 struct linked_list_int linked_list_constructor(){
     struct linked_list_int new_list;
     new_list.head = NULL;
